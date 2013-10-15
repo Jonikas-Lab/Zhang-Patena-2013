@@ -59,11 +59,12 @@ Note that most of this is continued in-progress work.  I tried to keep the files
  *   `HTSeq` (for parsing sam files) (http://pypi.python.org/pypi/HTSeq)
  *   `BCBio.GFF` (for parsing gff3 files) (http://github.com/chapmanb/bcbb/tree/master/gff)
 
-#### Standalone command-line programs (called via subprocess in one or more of the files):
+#### Standalone command-line programs (called via subprocess or another method in one or more of the files):
 
  *   `bowtie` (used in `deepseq_alignment_wrapper.py`) (http://bowtie-bio.sourceforge.net)
  *   `cutadapt` (used in `deepseq_preprocessing_wrapper.py`) (http://pypi.python.org/pypi/cutadapt/1.2.1)
  *   `fastx_collapser` (used in `deepseq_preprocessing_wrapper.py`) (part of `FastX_Toolkit` - http://github.com/lianos/fastx-toolkit)
+ *   `R` (used via `rpy2` for a few statistical functions) (http://www.r-project.org/)
 
 ## License
 
